@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HOME from './footer/index' 
-import ListarProduos from './ListarProdutos/index'
-import Oferta from './Header/index'
+import HOME from './home/index' 
+import Prod from './Prod/estoque'
+import Oferta from './Ofertas/index'
 import Link from './linkage'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
     <Route element={<Link/>} path='/'/>
     <Route element={<HOME/>} path='/home'/>
-    <Route element={<ListarProduos/>} path='/lista'/>
+    <Route element={<Prod/>} path='/estoque'/>
     <Route element={<Oferta/>} path='/oferta'/>
     </Routes>
     </BrowserRouter>

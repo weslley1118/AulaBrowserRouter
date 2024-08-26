@@ -2,9 +2,9 @@
 export default function ListarProduos({Lista}){
     return(
         <div>
-        <div className='Cat'>
+        <div className='00Cat'>
             <br/>
-        <div className='Dog' >
+        <div className='00Dog' >
             {
                 Lista.map((estoque)=>
                 <div key={estoque.id}>
@@ -17,7 +17,6 @@ export default function ListarProduos({Lista}){
                     <p>valor: {estoque.valor}</p>
                     <p>marca: {estoque.marca}</p>
                     <p>fabricante: {estoque.fabri}</p>
-                    <button className="Feather">É nois</button>
                     </div>
                 </div>
                 </div>
