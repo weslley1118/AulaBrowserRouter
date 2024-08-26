@@ -17,7 +17,7 @@ export default function ListarProduos({Lista}){
                     <p>valor: {estoque.valor}</p>
                     <p>marca: {estoque.marca}</p>
                     <p>fabricante: {estoque.fabri}</p>
-                    <button className="Feather">É nois</button>
+                    <button className="Feather">Adisionar ao carinho</button>
                     </div>
                 </div>
                 </div>
